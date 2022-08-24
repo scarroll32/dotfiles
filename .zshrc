@@ -1,10 +1,12 @@
 # Pure prompt - https://github.com/sindresorhus/pure#getting-started
 autoload -U promptinit; promptinit
+zstyle :prompt:pure:path color '#FF000'
 prompt pure
 
 ssh-add ~/.ssh/id_rsa
 alias sal='grep alias ~/.zshrc'
 alias vl='vim `ls -tr | tail -1`'
+alias brew='sudo -Hu sean brew'
 
 # rails aliases
 alias be='bundle exec'
@@ -26,6 +28,7 @@ alias ga='git add .'
 alias gcm='git commit -m'
 alias gca='git commit -a'
 
+PATH="/usr/local/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
 
 eval "$(rbenv init - zsh)"
-

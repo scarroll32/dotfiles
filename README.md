@@ -3,7 +3,7 @@
 Sean's dotfiles
 
 
-## General Setup
+## Shared Homebrew setup
 
 Assume a OS X machine with 2 users: `sean` and `work`.
 
@@ -22,6 +22,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 fpath+=("/opt/homebrew/share/zsh/site-functions")
 ```
 
+## New OS X Workstation Setup
 
 - [Pure prompt](https://github.com/sindresorhus/pure)
 
@@ -36,5 +37,5 @@ brew install pure
 brew install rbenv ruby-build
 brew install postgresql
 brew install redis
-rbenv install 3.0.4
+rbenv install 3.1.2
 ```

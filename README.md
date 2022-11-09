@@ -13,11 +13,18 @@ brew install iterm2
 brew install pure
 ```
 
+### iTerm configuration
+
+- Preferences, Profiles, Text
+- Font: Monaco 16
+
+
 ## Rails Development
 
 ```
 brew install rbenv ruby-build
 brew install postgresql
 brew install redis
+brew install rbenv ruby-build
 rbenv install 3.1.2
 ```
